@@ -1,10 +1,9 @@
 using System.Reflection.Metadata;
-using SpreadEx_Test_Project;
+using SpreadEx_Test_Project.Widgets;
 
 namespace SpreadEx_Test_Project.Tests
 {
     using System;
-    using System.Drawing;
     using Xunit;
 
     public class WidgetTests
@@ -13,7 +12,7 @@ namespace SpreadEx_Test_Project.Tests
         public void Rectangle_Draw_ReturnsCorrectOutput()
         {
             // Arrange
-            var rectangle = new SpreadEx_Test_Project.Rectangle(1, 2, 10, 20);
+            var rectangle = new Rectangle(1, 2, 10, 20);
 
             // Act
             var output = CaptureOutput(() => rectangle.Draw());

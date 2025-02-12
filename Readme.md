@@ -23,7 +23,7 @@ SOLID Principles: The design of the application demonstrates the SOLID principle
 	Dependency Inversion Principle (DIP): High-level modules depend on abstractions.
 
 **Requirements**
-.NET 5.0 or higher: Ensure you have the latest version of .NET installed.
+.NET 8.0 or higher: Ensure you have the latest version of .NET installed.
 xUnit (for testing): The program includes unit tests to verify the functionality of the core features.
 
 **Discussion**
